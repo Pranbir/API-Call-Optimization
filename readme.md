@@ -1,6 +1,6 @@
-# FastAPI App
+# Howw to optimize API Calls
 
-This is a FastAPI app and the scripts demonstrates concurrency using `asyncio.gather`. The app has a single API endpoint that takes 2 seconds to respond and returns a sample JSON output. The business logic is implemented as an async function, and it doesn't matter how many tabs in the browser call the API, each tab will receive the response at the same time.
+This is a FastAPI app and the scripts demonstrates concurrency using `asyncio.gather`. The app has a single API endpoint that takes 2 seconds to respond and returns a sample JSON output. The business logic is implemented as an async function, and it doesn't matter how many API calls are made concurrently, each call will receive the response nearly at the same time.
 
 ## Installation
 
@@ -35,7 +35,7 @@ The app has a single API endpoint at `/`. When you access this endpoint, it will
 
 ## Concurrent Requests
 
-Instead of using a browser it is suggested to use non-browser clients such as curl or Postman.
+Instead of using a browser it is suggested to use non-browser clients such as curl or Postman or use the scripts available in this repository.
 
 ## Scripts Description
 
